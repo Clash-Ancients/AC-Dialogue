@@ -33,6 +33,7 @@ public class VillagerScript : MonoBehaviour
         if (this != InterfaceManager.instance.currentVillager)
             return;
 
+        
         animator.SetTrigger(e.ToString());
 
         if (e == Emotion.suprised)
